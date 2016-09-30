@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "RepLink",
+  "description": "Modify links matching your filters",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "iconR.png",
+    "default_popup": "popup.html",
+    "default_title": "RepLink"
+  },
+
+  "background": {
+    "scripts": ["constants.js", "replace.js"],
+    "persistent": true
+  },
+
+  "icons": {
+    "128": "iconR.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webNavigation",
+    "tabs"
+  ]
+}

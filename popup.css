@@ -1,0 +1,72 @@
+.popup {
+  height: 350px;
+  width: 450px;
+}
+
+.header {
+  height: 40px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  background-color: #77d;
+  font-family: Times;
+}
+
+.ruleList, .ruleDetails {
+  height: 300px;
+  overflow-x: auto;
+}
+
+.detailInput {
+  width: 200px;
+}
+
+.detailInputWrapper {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.errorText {
+  display: block;
+  margin-left: 15px;
+}
+
+.rule {
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgba(10, 10, 10, 0.2);
+  margin-bottom: 5px;
+}
+
+.ruleName {
+  float: left;
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.editRule, .deleteRule {
+  margin: 0 6px;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addRule {
+  display: block;
+  margin: auto;
+}
+
+.switch {
+  float: left;
+  margin-top: 4px;
+  margin-right: 15px;
+}
+
+.saveChanges {
+}
+
